@@ -13,9 +13,9 @@ Então deve ser exibida a mensagem " Cadastro concluído com sucesso"
 
 Esquema do cenário: Tentativa de cadastro com e-mail inválido
 Dado que eu estou na página de cadastro da EBAC-SHOP
-Quando preencho o campo <e-mail> com <formato inválido>
+Quando preencho o campo <e-mail> com formato inválido
 E clico no botão "Concluir Cadastro"
-Então deve ser exibida uma mensagem de erro indicando <"formato de e-mail inválido">
+Então deve ser exibida uma <mensagem> de erro indicando <"formato de e-mail inválido">
 
 Exemplo: 
 E-mail             | mensagem                     
