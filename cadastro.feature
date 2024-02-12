@@ -18,10 +18,10 @@ E clico no botão "Concluir Cadastro"
 Então deve ser exibida uma mensagem de erro indicando <" esse formato de email é inválido">
 
 Exemplo: 
-|E-mail             | mensagem                     
-|"Joaoggg2!ebac.com"| "formato de e-mail inválido" 
-|"#####@.ebac.com"  | "formato de e-mail inválido" 
-|"Joapp*_ebac.com"  | "formato de e-mail inválido"
+E-mail             | mensagem                     
+"Joaoggg2!ebac.com"| "formato de e-mail inválido" 
+"#####@.ebac.com"  | "formato de e-mail inválido" 
+"Joapp*_ebac.com"  | "formato de e-mail inválido"
 
 Cenário: Tentativa de cadastro com campos obrigatórios em branco
 Dado que estou na página de cadastro da EBAC-SHOP
