@@ -11,17 +11,17 @@ Quando preencho o formulário com todos os campos obrigatórios
 E clico no botão "concluir cadastro"
 Então deve ser exibida a mensagem " Cadastro concluído com sucesso"
 
-Esquema do cenário: Tentativa de cadastro com e-mail inválido
+Esquema do cenário: Tentativa de cadastro com E-mail inválido
 Dado que eu estou na página de cadastro da EBAC-SHOP
-Quando preencho o campo <e-mail> com formato inválido
+Quando preencho o campo <E-mail>
 E clico no botão "Concluir Cadastro"
-Então deve ser exibida uma <mensagem> de erro indicando <"formato de e-mail inválido">
+Então deve ser exibida uma <mensagem> de erro indicando <"Formato de E-mail inválido">
 
 Exemplo: 
 E-mail             | mensagem                     
-"Joaoggg2!ebac.com"| "formato de e-mail inválido" 
-"#####@.ebac.com"  | "formato de e-mail inválido" 
-"Joapp*_ebac.com"  | "formato de e-mail inválido"
+"Joaoggg2!ebac.com"| "Formato de E-mail inválido" 
+"#####@.ebac.com"  | "Formato de E-mail inválido" 
+"Joapp*_ebac.com"  | "Formato de E-mail inválido"
 
 Cenário: Tentativa de cadastro com campos obrigatórios em branco
 Dado que estou na página de cadastro da EBAC-SHOP
